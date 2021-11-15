@@ -1,0 +1,51 @@
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import myImg from "../../Assets/avatar.svg";
+import Button from "react-bootstrap/Button";
+import pdfresume from "../../Assets/ayush-pansari-resume.pdf"
+import {
+  AiOutlineDownload,
+} from "react-icons/ai";
+
+function Home2() {
+  return (
+    <Container fluid className="home-about-section" id="about">
+      <Container>
+        <Row>
+          <Col md={8} className="home-about-description">
+            <h1 style={{ fontSize: "2.6em" }}>
+              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+            </h1>
+            <p className="home-about-body">
+              My name is Ayush Pansari, third year student at <a href="https://www.sgsits.ac.in/" target="_blank" rel="noreferrer" className="purple"><strong> SGSITS Indore</strong></a> currently pursuing <strong className="purple">B.Tech.</strong>
+              <br />
+              <br />
+              My field of Interests are <i><b className="purple"> Developing Applications </b></i> using different techs, <i><b className="purple"> Solving Algorithms </b></i> to work efficiently, and <i><b className="purple"> Competitive Programming </b></i> among top coders.
+              <br />
+              <br />
+              I'm a Competitive Coder & Full-Stack Developer, Mostly i've worked with
+              <i>
+                <b className="purple"> C++, Javascript and React. </b>
+              </i>
+
+            </p>
+          </Col>
+          <Col md={4} className="myAvtar">
+            <img src={myImg} className="img-fluid" alt="avatar" />
+          </Col>
+        </Row>
+        <br />
+        <Row>
+          <Col md={12}>
+            <Button variant="primary" href={pdfresume} target="_blank">
+              <AiOutlineDownload />
+              &nbsp; Download Resume
+            </Button>
+          </Col>
+        </Row>
+        <br />
+      </Container>
+    </Container>
+  );
+}
+export default Home2;

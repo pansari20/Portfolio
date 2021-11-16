@@ -50,7 +50,8 @@ function Techstack() {
         <IconViewer place="top" text="VS Code" icon={<SiVisualstudiocode />} />
         <IconViewer place="top" text="Heroku" icon={<SiHeroku />} />
       </Row>
-
+      <hr style={{border: '1px solid purple'}} />
+      <br />
       <h1 className="project-heading">
         Coding <strong className="purple"> Profiles </strong>
       </h1>

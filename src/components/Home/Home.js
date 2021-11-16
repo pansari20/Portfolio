@@ -28,6 +28,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      <hr style={{border: '0.5px solid purple', marginTop: '0px', width: '90%'}} />
       <HomeAbout />
     </section>
   );

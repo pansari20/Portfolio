@@ -1,11 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
-import Button from "react-bootstrap/Button";
-import pdfresume from "../../Assets/ayush-pansari-resume.pdf"
-import {
-  AiOutlineDownload,
-} from "react-icons/ai";
 
 function HomeAbout() {
   return (
@@ -35,17 +30,8 @@ function HomeAbout() {
           </Col>
         </Row>
         <br />
-        <Row>
-          <Col md={12}>
-            <Button variant="primary" href={pdfresume} target="_blank">
-              <AiOutlineDownload />
-              &nbsp; Download Resume
-            </Button>
-          </Col>
-        </Row>
-        <br />
-        <br />
         <i style={{fontSize: '1.2rem', color: 'rgb(155 126 172)', backgroundColor: 'rgba(36, 2, 44, 0.459)'}}> " Apart from coding I enjoy playing <strong> Badminton,</strong> cooking <strong> Food,</strong> doing some <strong> Gym </strong> and most importantly <strong>Sleep 😄.</strong> " </i>
+        <br />
         <br />
       </Container>
     </Container>

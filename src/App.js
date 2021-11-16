@@ -6,7 +6,7 @@ import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Particle from "./components/Particle";
-import Contact from "./components/Contact";
+import Contact from "./components/Contact/Contact";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "./App.css"

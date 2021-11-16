@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
-import About from "./About";
+import HomeAbout from "./HomeAbout";
 
 function Home() {
   return (
@@ -28,7 +28,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <About />
+      <HomeAbout />
     </section>
   );
 }

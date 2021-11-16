@@ -23,7 +23,7 @@ function Projects() {
               imgPath={chesswithfriends}
               isHosted={true}
               title="Chess With Friends"
-              description={ <p> A multiplayer online Chess game, where user can create a unique link of Chess game and send it to a friend. Players can also have a video call while playing. <br /> <br /> <strong class="purple"> Techs Used: </strong> <i> React, WebRtc, Simple-Peer, Node.js, Socket.io, Chess.js </i> </p> }
+              description={ <p> A multiplayer online Chess game, where user can create a unique link of Chess game and send it to a friend. Players can also have a video call while playing. <br /> <br /> <strong class="purple"> Techs Used: </strong> <i> React, WebRtc, Simple-Peer, Node.js, Socket.io & Chess.js </i> </p> }
               link="https://chesswithfriend.herokuapp.com"
               codeLink="https://github.com/pansari20/ChessApp"
             />
@@ -34,7 +34,7 @@ function Projects() {
               imgPath={peoplechat}
               isHosted={true}
               title="People Chat"
-              description={ <p> A Chat platform, where people can create or join a specific room and convey their messages. It is simple, fast and secure as Sockets are used to transfer messages. <br /> <br /> <strong class="purple"> Techs Used: </strong> <i> Node.js, Socket.io, HTML, CSS, Heroku</i> </p> }
+              description={ <p> A Chat platform, where people can create or join a specific room and convey their messages. It is simple, fast and secure as Sockets are used to transfer messages. <br /> <br /> <strong class="purple"> Techs Used: </strong> <i> Node.js, Socket.io, HTML, CSS & Heroku</i> </p> }
               link="https://peoplechats.herokuapp.com/"
               codeLink="https://github.com/pansari20/People-Chat"
             />
@@ -45,7 +45,7 @@ function Projects() {
               imgPath={textmodifier}
               isHosted={true}
               title="Text Modifier"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description={ <p> A simple text modifing application to change provided text accordingly. <br /> <br /> <strong class="purple"> Techs Used: </strong> <i> React, Bootstrap, HTML, CSS & Node.js </i> </p> }
               link="https://pansari20.github.io/Text-Modifier"
               codeLink="https://github.com/pansari20/Text-Modifier/"
             />
@@ -56,7 +56,7 @@ function Projects() {
               imgPath={portfolio}
               isHosted={true}
               title="Personal Portfolio"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              description={ <p> Personal Portfolio website built using react. It features my work, education and skillset in Technical areas. <br /> <br /> <strong class="purple"> Techs Used: </strong> <i> React, Bootstrap, HTML, CSS & Vercel </i> </p> }
               link="https://pansari20.github.io/Text-Modifier"
               codeLink="https://github.com/pansari20/Text-Modifier/"
             />

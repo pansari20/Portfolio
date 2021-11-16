@@ -7,7 +7,7 @@ import {
   AiOutlineDownload,
 } from "react-icons/ai";
 
-function About() {
+function HomeAbout() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -51,4 +51,4 @@ function About() {
     </Container>
   );
 }
-export default About;
+export default HomeAbout;

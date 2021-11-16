@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
-import About from "./components/About/About";
+import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Particle from "./components/Particle";
@@ -35,7 +35,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/project" exact component={Projects} />
-          <Route path="/about" exact component={About} />
+          <Route path="/skills" exact component={Skills} />
           <Route path="/contact" exact component={Contact} />
           <Home />
         </Switch>

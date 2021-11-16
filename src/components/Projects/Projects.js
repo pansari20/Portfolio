@@ -14,7 +14,7 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
-        <i style={{ color: "white" }}>
+        <i style={{ color: "rgb(155 126 172)" }}>
           A few projects I've worked on, more coming soon... 
         </i>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
@@ -23,7 +23,7 @@ function Projects() {
               imgPath={chesswithfriends}
               isHosted={true}
               title="Chess With Friends"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description={ <p> A multiplayer online Chess game, where user can create a unique link of Chess game and send it to a friend. Players can also have a video call while playing. <br /> <br /> <strong class="purple"> Techs Used: </strong> <i> React, WebRtc, Simple-Peer, Node.js, Socket.io, Chess.js </i> </p> }
               link="https://chesswithfriend.herokuapp.com"
               codeLink="https://github.com/pansari20/ChessApp"
             />
@@ -34,7 +34,7 @@ function Projects() {
               imgPath={peoplechat}
               isHosted={true}
               title="People Chat"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              description={ <p> A Chat platform, where people can create or join a specific room and convey their messages. It is simple, fast and secure as Sockets are used to transfer messages. <br /> <br /> <strong class="purple"> Techs Used: </strong> <i> Node.js, Socket.io, HTML, CSS, Heroku</i> </p> }
               link="https://peoplechats.herokuapp.com/"
               codeLink="https://github.com/pansari20/People-Chat"
             />

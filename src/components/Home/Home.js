@@ -19,7 +19,7 @@ function Home() {
                 <strong className="main-name"> AYUSH PANSARI</strong>
               </h1>
               <br />
-              <h1 className="heading-name"> <strong style={{ marginBlockEnd: 0, color: "rgb(155 126 172)", fontSize: '1.3rem' }}> A passionate coder and enthusiastic learner who always thrive to work on different technologies and learn to work optimally.</strong></h1>
+              <h1 className="heading-name"> <strong style={{ fontStyle: 'italic', marginBlockEnd: 0, color: "rgb(155 126 172)", backgroundColor: 'rgba(36, 2, 44, 0.459)', fontSize: '1.3rem' }}> A passionate coder and enthusiastic learner who always thrive to work on different technologies and learn to work optimally.</strong></h1>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>

@@ -4,7 +4,7 @@ import {
   AiFillGithub,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaHeart, FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -32,7 +32,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Made with ❤️ by <i><b className="purple"> Pansari Ji </b></i></h3>
+          <h3>Made with <FaHeart /> by <i><b className="purple"> Pansari Ji </b></i></h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3 style={{fontFamily: 'sans-serif', fontStyle: 'italic'}}>{day}/{month+1}/{year} - <span id="time-update"></span> </h3>

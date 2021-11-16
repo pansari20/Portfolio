@@ -7,7 +7,7 @@ import {
   AiOutlineDownload,
 } from "react-icons/ai";
 
-function Home2() {
+function About() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -44,8 +44,11 @@ function Home2() {
           </Col>
         </Row>
         <br />
+        <br />
+        <i style={{fontSize: '1.2rem', color: 'rgb(155 126 172)', backgroundColor: 'rgba(36, 2, 44, 0.459)'}}> " Apart from coding I enjoy playing <strong> Badminton,</strong> cooking <strong> Food,</strong> do some <strong> Gym </strong> and most importantly <strong>Sleep 😄.</strong> " </i>
+        <br />
       </Container>
     </Container>
   );
 }
-export default Home2;
+export default About;

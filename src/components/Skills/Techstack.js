@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row, OverlayTrigger } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import { DiNodejs, DiReact, DiJavascript1, DiPython, DiDjango } from "react-icons/di";
-import { SiMongodb, SiGithub, SiVercel, SiExpress, SiVisualstudiocode, SiHeroku, SiCodechef, SiCodeforces } from "react-icons/si";
+import { SiMongodb, SiGithub, SiVercel, SiVisualstudiocode, SiHeroku, SiCodechef, SiCodeforces, SiLeetcode, SiNetlify } from "react-icons/si";
 import { TiHtml5 } from "react-icons/ti";
 
 const overlayStyle = {
@@ -42,13 +42,14 @@ function Techstack() {
 
         <IconViewer place="top" text="HTML" icon={<TiHtml5 />} />
         <IconViewer place="top" text="GitHub" icon={<SiGithub />} />
-        <IconViewer place="top" text="Vercel" icon={<SiVercel />} />
+        <IconViewer place="top" text="VS Code" icon={<SiVisualstudiocode />} />
         <IconViewer place="top" text="Django" icon={<DiDjango />} />
         <IconViewer place="top" text="Python" icon={<DiPython />} />
-
-        <IconViewer place="top" text="Express" icon={<SiExpress />} />
-        <IconViewer place="top" text="VS Code" icon={<SiVisualstudiocode />} />
-        <IconViewer place="top" text="Heroku" icon={<SiHeroku />} />
+        {/* <IconViewer place="top" text="Express" icon={<SiExpress />} /> */}
+        
+        <IconViewer place="bottom" text="Heroku" icon={<SiHeroku />} />
+        <IconViewer place="bottom" text="Vercel" icon={<SiVercel />} />
+        <IconViewer place="bottom" text="Netlify" icon={<SiNetlify />} />
       </Row>
       <hr style={{border: '1px solid purple'}} />
       <br />
@@ -59,9 +60,10 @@ function Techstack() {
         Visit platforms i code on...  
       </i>
       <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-        <IconViewer place="bottom" text="Codechef" icon={ <a style={{color: 'white'}} target="_blank" rel="noreferrer" href="https://codechef.com/users/pansari_ayush"> <SiCodechef /> </a> } />
-        <IconViewer place="bottom" text="GitHub" icon={ <a style={{color: 'white'}} target="_blank" rel="noreferrer" href="https://github.com/pansari20"> <SiGithub /> </a> } />
-        <IconViewer place="bottom" text="Codeforces" icon={ <a style={{color: 'white'}} target="_blank" rel="noreferrer" href="https://codeforces.com/profile/pansari_ayush"> <SiCodeforces /> </a> } />
+        <IconViewer place="bottom" text="Codechef" icon={ <a style={{color: 'white'}} target="_blank" rel="noreferrer" href="https://codechef.com/users/pansari_ayush/"> <SiCodechef /> </a> } />
+        <IconViewer place="bottom" text="GitHub" icon={ <a style={{color: 'white'}} target="_blank" rel="noreferrer" href="https://github.com/pansari20/"> <SiGithub /> </a> } />
+        <IconViewer place="bottom" text="Codeforces" icon={ <a style={{color: 'white'}} target="_blank" rel="noreferrer" href="https://codeforces.com/profile/pansari_ayush/"> <SiCodeforces /> </a> } />
+        <IconViewer place="bottom" text="LeetCode" icon={ <a style={{color: 'white'}} target="_blank" rel="noreferrer" href="https://leetcode.com/pansari_ayush/"> <SiLeetcode /> </a> } />
       </Row>
     </>
   );

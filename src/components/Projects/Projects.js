@@ -45,7 +45,7 @@ function Projects() {
               imgPath={textmodifier}
               isHosted={true}
               title="Text Modifier"
-              description={ <p> A simple text modifing application to change provided text accordingly. <br /> <br /> <strong class="purple"> Techs Used: </strong> <i> React, Bootstrap, HTML, CSS & Node.js </i> </p> }
+              description={ <p> A simple text modifing application to change provided text accordingly. <br /> <br /> <strong class="purple"> Techs Used: </strong> <i> React, Bootstrap, HTML, CSS & gh-pages </i> </p> }
               link="https://pansari20.github.io/Text-Modifier"
               codeLink="https://github.com/pansari20/Text-Modifier/"
             />
@@ -56,8 +56,8 @@ function Projects() {
               imgPath={portfolio}
               isHosted={true}
               title="Personal Portfolio"
-              description={ <p> Personal Portfolio website built using react. It features my work, education and skillset in Technical areas. <br /> <br /> <strong class="purple"> Techs Used: </strong> <i> React, Bootstrap, HTML, CSS & Vercel </i> </p> }
-              link="https://pansari20.herokuapp.com"
+              description={ <p> Personal Portfolio website built using react. It features my work, education and skillset in Technical areas. <br /> <br /> <strong class="purple"> Techs Used: </strong> <i> React, Bootstrap, HTML, CSS & Netlify </i> </p> }
+              link="https://pansari20.netlify.app"
               codeLink="https://github.com/pansari20/Portfolio"
             />
           </Col>

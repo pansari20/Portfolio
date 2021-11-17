@@ -15,7 +15,6 @@ export default function Contact() {
           <h1 className="social-heading" > <SiGooglemaps /> Address &nbsp; </h1>
           <a href="https://goo.gl/maps/XCahLX3tbaybDvgQA" style={{ color: "rgb(155 126 172)", fontSize: '1.2rem', fontFamily: 'arial', fontStyle: 'italic' }}> F 192 LIG Colony, Indore (M.P.) | 452011 </a>
         </Col>
-        {/* <Row> */}
         <Col md={4}>
           <h1 className="social-heading" > <MdCall /> Phone Number &nbsp; </h1>
           <a href="tel:+91-8982819315" style={{ color: "rgb(155 126 172)", fontSize: '1.2rem', fontFamily: 'sans-serif', fontStyle: 'italic' }}> +91-8982819315 </a>
@@ -25,7 +24,6 @@ export default function Contact() {
           <a href="mailto:ayushgayush120@gmail.com" style={{ color: "rgb(155 126 172)", fontSize: '1.2rem', fontFamily: 'sans-serif', fontStyle: 'italic' }}> ayushgayush120@gmail.com </a>
         </Col>
         <Col md={1}></Col>
-        {/* </Row> */}
       </Row>
       <br /> <br />
     </Container>

@@ -24,6 +24,8 @@ function Footer() {
     if(mins<10) mins = '0' + mins;
     if(hrs<10) hrs = '0' + hrs;
     let str = hrs + ':' + mins + ':' + secs;
+    if(hrs<12) str+=' AM';
+    else str+=' PM';
     document.getElementById('time-update').innerHTML = str;
   }
   setInterval(getTime, 1000);

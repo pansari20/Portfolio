@@ -57,8 +57,8 @@ function Projects() {
               isHosted={true}
               title="Personal Portfolio"
               description={ <p> Personal Portfolio website built using react. It features my work, education and skillset in Technical areas. <br /> <br /> <strong class="purple"> Techs Used: </strong> <i> React, Bootstrap, HTML, CSS & Vercel </i> </p> }
-              link="https://pansari20.github.io/Text-Modifier"
-              codeLink="https://github.com/pansari20/Text-Modifier/"
+              link="https://pansari20.herokuapp.com"
+              codeLink="https://pansari20.github.io/Portfolio"
             />
           </Col>
         </Row>

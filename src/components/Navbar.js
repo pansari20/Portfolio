@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import Navbar from "react-bootstrap/Navbar";
+import { Navbar, Container, Button} from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
-import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 import { AiOutlineHome, AiOutlineFundProjectionScreen, AiOutlineUser } from "react-icons/ai";
-
+import { IoMdMail } from "react-icons/io";
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -79,20 +78,19 @@ function NavBar() {
                 to="/contact"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Contact
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> Contact Me
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item className="fork-btn">
+            <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/pansari20/Portfolio"
+                href="mailto:ayushgayush120@gmail.com"
                 target="_blank"
                 className="fork-btn-inner"
               >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
+                <IoMdMail />
               </Button>
-            </Nav.Item> */}
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>

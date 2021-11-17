@@ -550,10 +550,42 @@ html {
 
 .contact-section {
   position: relative !important;
-  padding-top: 100px !important;
+  padding-top: 120px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
-  min-height: 95vh;
+  min-height: 95vh
 }
 
+.contact-social {
+  padding-top: 70px;
+}
+.social-heading {
+  padding-top: 50px;
+}
+ 
+/*  */
+/* NavBar Fork btn */
+/*  */
+
+.fork-btn {
+  font-size: 1.1em !important;
+  padding-top: 10px !important;
+}
+
+.fork-btn-inner {
+  line-height: 1.4em !important;
+  background-color: #934cce5e !important;
+  padding: 0.25rem 1.1rem !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+.fork-btn-inner:hover {
+  transform: translateY(-2px) !important;
+  background-color: #a24dd386 !important;
+  border-color: #a24dd386 !important;
+}
+.fork-btn-inner::after {
+  display: none !important;
+}

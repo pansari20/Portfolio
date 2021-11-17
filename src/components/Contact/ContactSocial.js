@@ -24,8 +24,7 @@ export default function ContactSocial() {
                 <Col md={6} >
                     <img src={socialHouse} alt="Img" className="img-fluid" />
                 </Col>
-                <Col md={2} >
-                </Col>
+                <Col md={2} ></Col>
                 <Col md={4} className="contact-social">
                     <h2 style={{ fontSize: "2.6em" }}>Find<strong className="purple"> ME </strong> </h2>
 

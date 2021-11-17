@@ -550,7 +550,7 @@ html {
 
 .contact-section {
   position: relative !important;
-  padding-top: 120px !important;
+  padding-top: 130px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
@@ -562,6 +562,7 @@ html {
 }
 .social-heading {
   padding-top: 50px;
+  font-size: 2rem;
 }
  
 /*  */

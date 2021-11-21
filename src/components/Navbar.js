@@ -29,7 +29,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand as={Link} to="/">
-          <h3> &lt; <strong className="purple" style={{fontStyle: 'italic'}} >Ayush Pansari</strong> &#47;&gt; </h3>
+          <h3> <strong style={{fontStyle: 'italic', color: 'rgb(155 126 172)'}} > &lt; Ayush Pansari &#47;&gt;</strong> </h3>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
